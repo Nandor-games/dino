@@ -1,6 +1,6 @@
 console.log("Nem itt van!")
 
-import Player from "./Plaxyer.js";
+import Player from "./Player.js";
 import Ground from "./Ground.js";
 import CactiController from "./CactiController.js";
 import Score from "./Score.js";
