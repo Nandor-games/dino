@@ -23,14 +23,14 @@ export default class Player {
       this.yStandingPosition = this.y;
   
       this.standingStillImage = new Image();
-      this.standingStillImage.src = "images/lorax.png";
+      this.standingStillImage.src = "images/standing_still.png.png";
       this.image = this.standingStillImage;
   
       const dinoRunImage1 = new Image();
-      dinoRunImage1.src = "images/lorax.png";
+      dinoRunImage1.src = "images/dino_run1.png";
   
       const dinoRunImage2 = new Image();
-      dinoRunImage2.src = "images/lorax.png";
+      dinoRunImage2.src = "images/dino_run2.png";
   
       this.dinoRunImages.push(dinoRunImage1);
       this.dinoRunImages.push(dinoRunImage2);
