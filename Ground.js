@@ -11,7 +11,7 @@ export default class Ground {
     this.y = this.canvas.height - this.height;
 
     this.groundImage = new Image();
-    this.groundImage.src = "images/fold.png";
+    this.groundImage.src = "./ground.png";
   }
 
   update(gameSpeed, frameTimeDelta) {
